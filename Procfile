@@ -1,2 +1,2 @@
-release: chmod u+x script.sh && ./script.sh
+release: bash script.sh
 web: vendor/bin/heroku-php-apache2 public/
